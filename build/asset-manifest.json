@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Portfolio.git/static/css/main.c6445bd8.css",
+    "main.js": "/Portfolio.git/static/js/main.70103073.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio.git/static/js/787.1ed0c42c.chunk.js",
+    "static/media/profile.jpg": "/Portfolio.git/static/media/profile.5564fe48e14dc9481229.jpg",
+    "static/media/workDayScheduler.png": "/Portfolio.git/static/media/workDayScheduler.eb2ae5014fbc8734e392.png",
+    "static/media/weatherAPI.png": "/Portfolio.git/static/media/weatherAPI.4737f4807e93c9daf03e.png",
+    "static/media/rpsGame.png": "/Portfolio.git/static/media/rpsGame.e8dcbe64fb564ece59fa.png",
+    "index.html": "/Portfolio.git/index.html",
+    "main.c6445bd8.css.map": "/Portfolio.git/static/css/main.c6445bd8.css.map",
+    "main.70103073.js.map": "/Portfolio.git/static/js/main.70103073.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio.git/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6445bd8.css",
+    "static/js/main.70103073.js"
+  ]
+}
