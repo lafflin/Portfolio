@@ -1,5 +1,5 @@
 import * as React from "react";
-
+// make a back end? maybe but I would almost rather just leave my information here
 const Contact = () => {
 	return (
 		<div>

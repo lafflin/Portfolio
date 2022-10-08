@@ -1,10 +1,12 @@
 import * as React from "react";
+
+// initially was using materialUI, ending up switching out of it because it felt too complex for this project. also like the idea of learning tailwind more.
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 
-// personal
+// personal imports the separate pages
 import NavBar from "../navbar";
 import About from "../about";
 import Projects from "../project";
@@ -13,14 +15,6 @@ import Resume from "../resume";
 
 const Header = () => {
 	const [currentPage, handlePageChange] = React.useState("About");
-
-	// const handleOpenNavMenu = (event) => {
-	// 	setAnchorElNav(event.currentTarget);
-	// };
-
-	// const handleCloseNavMenu = () => {
-	// 	setAnchorElNav(null);
-	// };
 
 	const renderNextPage = (currentPage) => {
 		switch (currentPage) {
@@ -72,4 +66,5 @@ const Header = () => {
 		</div>
 	);
 };
+
 export default Header;

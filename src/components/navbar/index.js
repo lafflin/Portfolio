@@ -1,5 +1,5 @@
 import * as React from "react";
-
+// would like to style this to be more reactive on click, think it would be cool
 const NavBar = (props) => {
 	const pages = ["About", "Portfolio", "Contact", "Resume"];
 	return (

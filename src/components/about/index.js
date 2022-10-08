@@ -1,4 +1,5 @@
 import * as React from "react";
+import profile from "../assets/profile.jpg";
 
 const About = () => {
 	return (
@@ -19,8 +20,10 @@ const About = () => {
 				All-in-all, I am eager to be able to demonstrate my newly learned skills
 				alongside fellow developers to deliver well-polished web products.
 			</p>
+			<br />
+			<img src={profile} alt="profile" />
 		</div>
 	);
 };
-
+// would like to include more info n this page (maybe another paragraph) as well as more pictures.
 export default About;
