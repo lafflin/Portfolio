@@ -4,6 +4,7 @@ import workDayScheduler from "../assets/workDayScheduler.png";
 import weatherAPI from "../assets/weatherAPI.png";
 import expressNoteTaker from "../assets/expressNoteTaker.png";
 import rpsGame from "../assets/rpsGame.png";
+import kanbanView from "../assets/kanbanView.png";
 
 // want to edit the styling eventually so that the cards are arranged in a 2x3
 // also want to slowly replace a lot of these projects with ones that are better/ more polished
@@ -84,7 +85,7 @@ const Projects = () => {
 				</div>
 				<br />
 				<div class="border border-solid border-slate-900 rounded">
-					<img src="" alt="Get It Done!" />
+					<img src={kanbanView} alt="Get It Done!" />
 					<p>Get It Done!</p>
 					<p>Tech Used: MERN stack, JWT, Normalize.css</p>
 					<p>
